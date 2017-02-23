@@ -210,7 +210,7 @@
     // 1.创建webview，并设置大小
     WKWebView *webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 64, ScreenWidth, ScreenHeight - 64)];
     // 2.创建请求
-    NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://github.com/barrylyl09/ThreadCommunicate/wiki/Multithreading"]];
+    NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://barryblog.farbox.com/post/iosduo-xian-cheng-xue-xi-zong-jie"]];
     // 3.加载网页
     [webView loadRequest:request];
     
